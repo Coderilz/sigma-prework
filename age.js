@@ -14,7 +14,7 @@ let birthDay = birthDateArr[2],
 let age = presentYear - birthYear;
 if (presentMonth < birthMonth) {
   age--;
-} else if (presentMonth === birthMonth) {
+} else if (presentMonth == birthMonth) {
   if (presentDay < birthDay) {
     age--;
   }
